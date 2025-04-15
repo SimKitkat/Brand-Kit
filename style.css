@@ -1,0 +1,115 @@
+:root {
+  --bg: #fffafc;
+  --text: #333;
+  --accent: #f6c1c7;
+  --font: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: var(--accent);
+  color: white;
+}
+
+.logo {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.brand-section {
+  margin-bottom: 3rem;
+}
+
+.brand-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.logo-preview img {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.color-palette {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.color {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #444;
+  font-weight: bold;
+  padding: 0.5rem;
+  background-blend-mode: multiply;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fonts p {
+  margin-bottom: 0.5rem;
+}
+
+.voice {
+  font-style: italic;
+  padding: 1rem;
+  background: #fdf3f5;
+  border-left: 4px solid var(--accent);
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ec9faf;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+  color: #888;
+}
